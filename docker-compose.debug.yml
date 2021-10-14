@@ -1,14 +1,16 @@
 version: '3.4'
 
 services:
-  vscodenodeexpressdocker:
-    image: vscodenodeexpressdocker
+  sample:
+    image: sample
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: Dockerfile.debug
     environment:
       NODE_ENV: development
     ports:
-      - 3001:3001
+      - 3000:3000
       - 9229:9229
+    volumes: 
+      - /usr/src/app/node_modules  
     command: ["node", "--inspect=0.0.0.0:9229", "./bin/www"]
