@@ -8,6 +8,10 @@ Running, debugging and logging to std out/err are essential
 
 ### Pre-requisites
 
+Visual Studio Code
+https://code.visualstudio.com/download
+
+
 ####  Docker Workstation (tested )
 Install instructions here
 https://docs.docker.com/desktop/mac/install/
@@ -17,3 +21,7 @@ https://docs.docker.com/desktop/mac/install/
 ### Window 10 Installation ( to be tested )
 
 https://docs.docker.com/desktop/windows/install/
+
+### Resouces
+Developing inside a Container
+https://code.visualstudio.com/docs/remote/containers
